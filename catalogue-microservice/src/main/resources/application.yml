@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: catalogue-microservice
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+      console:
+        enabled: true
+        path: /h2
+
+
+server:
+  port: 9091
